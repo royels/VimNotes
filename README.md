@@ -65,6 +65,5 @@ incremental search | finds the next instance of a search item while being typed.
 **To turn off --> :no[search term]**
 
 
-###Contributing
-==
+###Contributing:
 Any Vim mavens are more than welcome to submit a PR; I'm always happy to be corrected.
