@@ -62,8 +62,12 @@ incremental search | finds the next instance of a search item while being typed.
 
 **To turn on --> :set [search term]**
 
+```:set ic // turns on the ignore case search option```
+
+
 **To turn off --> :no[search term]**
 
+```:set noic // turns off the ignore case option```
 
 ###Contributing:
 Any Vim mavens are more than welcome to submit a PR; I'm always happy to be corrected.
