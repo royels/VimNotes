@@ -1,7 +1,7 @@
 VimNotes
 ========
 
-Notetaking on the surprisingly awesome editor that is Vim. These are a centralized compilation of the elementary keybindings often used on a UNIX machine, so I have something to quickly refer to. Hopefully others find this useful in some capacity. 
+Notetaking on the surprisingly awesome editor that is Vim. This is a compilation of the elementary keybindings often used on a UNIX machine, so I have something to quickly refer to. Hopefully others find this useful in some capacity. 
 
  **command** | **action** | **useful?**
  :--|:--|:--:
