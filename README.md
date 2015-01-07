@@ -1,6 +1,8 @@
 VimNotes
 ========
 
+Notetaking on the surprisingly awesome editor that is Vim
+
  **command** | **action** | **useful?**
  :--|:--|:--:
  h , j , k , l | left, down, up, right | staple
@@ -15,9 +17,10 @@ a | insert mode after cursor | occasionally
 :w [FILENAME] | save as | occasionally
 v | enter visual mode | necessity!!!
 y | copies ("yanks") text selected in visual mode | very useful
-p | puts back copied/cut text, one line under cursor |
+p | puts back copied/cut text, one line under cursor | quite useful
 :r ![command] | see output of command w/o leaving file | necessity!!!
-o | newline and insert mode | useful
+o | newline below cursor and insert mode | useful
+O | newline above cursor and insert mode | useful
 R | replace multiple characters | very useful
 r[character] | replace at cursor with [character] | very useful
 CTRL-g | prints the line position in the file | occasionally
@@ -39,3 +42,24 @@ dd | delete line | useful
 [number]dd | delete [number] lines | a bit exotic
 [number]w | moves [number] words down, to first character of [number] word | pretty useful
 [number]e | moves to last character of [number] word down | useful
+
+
+
+
+**operators** | **description**
+:--:| :--:
+$ | end of line
+w | moves cursor to first character of next word, excluding spaces.
+e | moves cursor to last character of current word, including spaces.
+
+
+
+**search term** | **action** |
+:--| :-:
+hlsearch | highlighted search
+ic | ignore case
+incremental search | finds the next instance of a search item while being typed.
+
+**To turn on --> :set [search term]**
+
+**To turn off --> :no[search term]**
