@@ -1,7 +1,7 @@
 VimNotes
 ========
 
-Notetaking on the surprisingly awesome editor that is Vim
+Notetaking on the surprisingly awesome editor that is Vim. These are a centralized compilation of the elementary keybindings often used on a UNIX machine, so I have something to quickly refer to. Hopefully others find this useful in some capacity. 
 
  **command** | **action** | **useful?**
  :--|:--|:--:
@@ -63,3 +63,8 @@ incremental search | finds the next instance of a search item while being typed.
 **To turn on --> :set [search term]**
 
 **To turn off --> :no[search term]**
+
+
+###Contributing
+==
+Any Vim mavens are more than welcome to submit a PR; I'm always happy to be corrected.
