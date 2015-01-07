@@ -1,8 +1,6 @@
 VimNotes
 ========
 
-Notetaking on the surprisingly awesome editor that is Vim
-
  **command** | **action** | **useful?**
  :--|:--|:--:
  h , j , k , l | left, down, up, right | staple
