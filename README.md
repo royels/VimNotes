@@ -67,9 +67,9 @@ Example:
 
 **search term** | **action** |
 :--| :-:
-hlsearch | highlighted search
-ic | ignore case
-incremental search | finds the next instance of a search item while being typed.
+hlsearch | highlights searched terms.
+ic | ignores case while searching, i.e searching for "the" will result in "The" as a result.
+incsearch | finds the next instance of a search item while being typed.
 
 **To turn on --> :set [search term]**
 
