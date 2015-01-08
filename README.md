@@ -46,11 +46,22 @@ dd | delete line | useful
 
 
 
-**operators** | **description**
+**motions** | **description**
 :--:| :--:
 $ | end of line
 w | moves cursor to first character of next word, excluding spaces.
 e | moves cursor to last character of current word, including spaces.
+
+**standard vim formulae:**
+
+
+```operator [number] motion```
+
+Example:
+
+```d3w   // deletes to the beginning of 3rd word from cursor. ```
+
+```c3$   // removes the next 3 lines from the cursor and shifts automatically into insert mode. ```
 
 
 
