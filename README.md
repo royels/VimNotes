@@ -1,7 +1,7 @@
 VimNotes
 ========
 
-Notetaking on the surprisingly awesome editor that is Vim. This is a compilation of the elementary keybindings often used on a UNIX machine, so I have something to quickly refer to. Hopefully others find this useful in some capacity. 
+This is a compilation of the elementary keybindings often used on a UNIX machine, so I have something to quickly refer to. Hopefully others find this useful in some capacity. 
 
  **command** | **action** | **useful?**
  :--|:--|:--:
@@ -18,7 +18,7 @@ a | insert mode after cursor | occasionally
 v | enter visual mode | necessity!!!
 y | copies ("yanks") text selected in visual mode | very useful
 p | puts back copied/cut text, one line under cursor | quite useful
-:r ![command] | see output of command w/o leaving file | necessity!!!
+:r ![command] | puts output of command into file | exotic
 o | newline below cursor and insert mode | useful
 O | newline above cursor and insert mode | useful
 R | replace multiple characters | very useful
