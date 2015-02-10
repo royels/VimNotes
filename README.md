@@ -24,7 +24,6 @@ O | newline above cursor and insert mode
 R | replace multiple characters 
 r[character] | replace at cursor with [character]
 CTRL-g | prints the line position in the file 
-
 /[keyword] | searches for [keyword] in file, n navigates downwards, N upwards 
 ?[keyword] | same as /, except directions (and thus n and N's direction are reversed.)
 % | jumps to next (,[,{, given that the cursor is on one of those characters to begin with 
