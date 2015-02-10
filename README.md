@@ -33,7 +33,6 @@ CTRL-g | prints the line position in the file
 :%s/[old]/[new]/gc | global find and replace with prompt 
 :[#],[#]s/[old],[new]/g | global replace between lines specified. 
 u | undo action 
-0 | move to beginning of line 
 CTRL-R | redo action 
 dd | delete line 
 [number]dd | delete [number] lines 
@@ -46,6 +45,7 @@ dd | delete line
 **motions** | **description**
 :--:| :--:
 $ | end of line
+0 | move to beginning of line 
 w | moves cursor to first character of next word, excluding spaces.
 e | moves cursor to last character of current word, including spaces.
 gg | top of file 
