@@ -5,7 +5,6 @@ This is a compilation of the elementary keybindings often used on a UNIX machine
 
  **command** | **action** 
  :--|:--|:--:
- h , j , k , l | left, down, up, right
  :wq! | save and exit vim
  :q! |  exit vim without saving 
  x  | delete at cursor 
@@ -45,6 +44,7 @@ dd | delete line
 
 **motions** | **description**
 :--:| :--:
+h , j , k , l | left, down, up, right
 $ | end of line
 0 | move to beginning of line 
 w | moves cursor to first character of next word, excluding spaces.
