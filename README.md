@@ -37,7 +37,8 @@ CTRL-R | redo action
 dd | delete line 
 [number]dd | delete [number] lines 
 [number]w | moves [number] words down, to first character of [number] word 
-[number]e | moves to last character of [number] word down 
+[number]e | moves to last character of [number] word down
+:syntax on| turns on syntax highlighting. Very useful. 
 
 
 
