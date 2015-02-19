@@ -72,6 +72,10 @@ hlsearch | highlights searched terms.
 ic | ignores case while searching, i.e searching for "the" will result in "The" as a result.
 incsearch | finds the next instance of a search item while being typed.
 
+**Useful tricks**
+:--|:-:
+To commment out lines at once: | Ctrl v over the selection you desire commented, and then hit I#(ESC)
+
 
 **To turn on --> :set [search term]**
 
