@@ -38,6 +38,13 @@ dd | delete line
 [number]w | moves [number] words down, to first character of [number] word 
 [number]e | moves to last character of [number] word down
 :syntax on| turns on syntax highlighting. Very useful. 
+dt[character] | delete till occurence of this character.
+
+
+
+
+``` dt! at the start of the string "Rohan is the most intelligent engineer ever! Habadashery" makes ! "Habadashery" ```
+
 
 
 
