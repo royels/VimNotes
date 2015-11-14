@@ -5,9 +5,12 @@ This is a compilation of the elementary keybindings often used on a UNIX machine
 
  **command** | **action** 
  :--|:--|:--:
- :wq! | save and exit vim
+ :w <filename> | write contents to <filename>
+ :wq | save and exit vim
  :q! |  exit vim without saving 
  x  | delete at cursor 
+ J | joins two lines
+ s/\<file\>/newfile/[options] | replaces words that match file and only file with newfile.
  i | insert mode before cursor  
  ESC | takes out of insert mode 
 A | append text to the end of line
@@ -34,6 +37,7 @@ CTRL-g | prints the line position in the file
 u | undo action 
 CTRL-R | redo action 
 dd | delete line 
+[number]yy | yank [number] lines
 [number]dd | delete [number] lines 
 [number]w | moves [number] words down, to first character of [number] word 
 [number]e | moves to last character of [number] word down
@@ -71,7 +75,7 @@ Example:
 
 ```c3$   // removes the next 3 lines from the cursor and shifts automatically into insert mode. ```
 
-```dG    // deletes to end of file. ```
+```dG    // deletes to end of file. ``
 
 **search term** | **action** |
 :--| :-:
