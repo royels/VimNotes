@@ -1,7 +1,7 @@
 VimNotes
 ========
 
-This is a compilation of the elementary keybindings often used on a UNIX machine, so I have something to quickly refer to. Hopefully others find this useful in some capacity. 
+This is a compilation of the elementary keybindings often used on a UNIX machine, so I have something to quickly refer to.
 
  **command** | **action** 
  :--|:--|:--:
@@ -97,5 +97,3 @@ To commment out lines at once: | Ctrl v over the selection you desire commented,
 
 ```:set noic // turns off the ignore case option```
 
-###Contributing:
-Any Vim mavens are more than welcome to submit a PR; I'm always happy to be corrected.
